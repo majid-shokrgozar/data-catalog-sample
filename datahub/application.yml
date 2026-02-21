@@ -1,0 +1,30 @@
+# DataHub Configuration for Database Connections
+
+# Example configuration for connecting to a PostgreSQL database
+# Modify the properties according to your database settings.
+
+# Database Connection
+connections:
+  - type: postgres
+    connection:
+      host: your_database_host
+      port: 5432
+      username: your_username
+      password: your_password
+      database: your_database_name
+
+# Metadata Extraction Settings
+metadata:
+  extractor:
+    enabled: true
+    options:
+      batch_size: 1000
+
+# Classification Settings
+classification:
+  enabled: true
+  classifiers:
+    - name: classification_name
+      type: classification_type
+      options:
+        key: value
