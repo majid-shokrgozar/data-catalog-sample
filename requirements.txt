@@ -1,0 +1,6 @@
+pyyaml
+psycopg2-binary
+mysql-connector-python
+requests
+acryl-datahub
+sqlalchemy
